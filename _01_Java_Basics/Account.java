@@ -33,7 +33,7 @@ public class Account {
     public void displayInfo(){
         System.out.println("Nume " + this.name);
         System.out.println("Balanta " + this.balance);
-        System.out.println("Numar de conturi " + this.totalAccounts);
+        System.out.println("Numar de conturi " + totalAccounts);
     }
     public static void main(String[] args) {
         Account acc1 = new Account("Costel",200);
@@ -41,6 +41,6 @@ public class Account {
 
         acc1.deposit(1500);
         acc1.displayInfo();
+        acc2.displayInfo();
     }
-
 }
